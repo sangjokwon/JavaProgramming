@@ -11,14 +11,14 @@ public class Programming20 {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("¿ø±âµÕ ¹Ø¸éÀÇ ¹İÁö¸§À» ÀÔ·ÂÇÏ½Ã¿À : ");
+		System.out.print("ì›ê¸°ë‘¥ ë°‘ë©´ì˜ ë°˜ì§€ë¦„ì„ ì…ë ¥í•˜ì‹œì˜¤ : ");
 		r = sc.nextInt();
-		System.out.print("¿ø±âµÕÀÇ ³ôÀÌ¸¦ ÀÔ·ÂÇÏ½Ã¿À : ");
+		System.out.print("ì›ê¸°ë‘¥ì˜ ë†’ì´ë¥¼ ì…ë ¥í•˜ì‹œì˜¤ : ");
 		h = sc.nextInt();
 
 		volume = r * r * PI * h;
 
-		System.out.println("¿ø±âµÕÀÇ ºÎÇÇ´Â " + volume + "ÀÔ´Ï´Ù");
+		System.out.println("ì›ê¸°ë‘¥ì˜ ë¶€í”¼ëŠ” " + volume + "ì…ë‹ˆë‹¤");
 
 		sc.close();
 	}

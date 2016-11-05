@@ -1,3 +1,4 @@
+
 package tutorial;
 
 import java.util.Scanner;
@@ -9,18 +10,18 @@ public class Programming16 {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("ÄÄÇ»ÅÍ °³·Ğ °ú¸ñÀÇ Á¡¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À : ");
+		System.out.print("ì»´í“¨í„° ê°œë¡  ê³¼ëª©ì˜ ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤ : ");
 		cpu = sc.nextInt();
-		System.out.print("c¾ğ¾î ÇÁ·Î±×·¡¹Ö °ú¸ñÀÇ Á¡¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À : ");
+		System.out.print("cì–¸ì–´ í”„ë¡œê·¸ë˜ë° ê³¼ëª©ì˜ ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤ : ");
 		clang = sc.nextInt();
-		System.out.print("¿µ¾î °ú¸ñÀÇ °ú¸ñÀÇ Á¡¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À : ");
+		System.out.print("ì˜ì–´ ê³¼ëª©ì˜ ê³¼ëª©ì˜ ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤ : ");
 		eng = sc.nextInt();
-		System.out.print("¼öÇĞ °ú¸ñÀÇ Á¡¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À : ");
+		System.out.print("ìˆ˜í•™ ê³¼ëª©ì˜ ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤ : ");
 		math = sc.nextInt();
 
 		avg = (cpu + clang + eng + math) / 4;
 
-		System.out.print("Æò±Õ Á¡¼ö´Â " + avg + "Á¡ ÀÔ´Ï´Ù.");
+		System.out.print("í‰ê·  ì ìˆ˜ëŠ” " + avg + "ì  ì…ë‹ˆë‹¤.");
 		sc.close();
 	}
 

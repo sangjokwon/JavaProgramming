@@ -11,13 +11,13 @@ public class Programming17 {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("Å°¸¦ cm´ÜÀ§·Î ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("í‚¤ë¥¼ cmë‹¨ìœ„ë¡œ ì…ë ¥í•˜ì„¸ìš” : ");
 		high = sc.nextInt();
 
 		feet2 = (int) (high / feet);
 		inch2 = (high - feet2 * feet) / inch;
 
-		System.out.println(+high + "cm´Â " + feet2 + "ÇÇÆ® " + inch2 + "ÀÎÄ¡ÀÔ´Ï´Ù.");
+		System.out.println(+high + "cmëŠ” " + feet2 + "í”¼íŠ¸ " + inch2 + "ì¸ì¹˜ì…ë‹ˆë‹¤.");
 
 		sc.close();
 	}

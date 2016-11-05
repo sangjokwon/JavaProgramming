@@ -8,7 +8,7 @@ public class Programming18 {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("10000º¸´Ù ÀÛÀº Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("10000ë³´ë‹¤ ì‘ì€ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		su = sc.nextInt();
 
 		th = su / 1000;
@@ -16,10 +16,10 @@ public class Programming18 {
 		ten = su % 100 / 10;
 		one = su % 10;
 
-		System.out.println("ÃµÀÇ ÀÚ¸® : " + th);
-		System.out.println("¹éÀÇ ÀÚ¸® : " + hun);
-		System.out.println("½ÊÀÇ ÀÚ¸® : " + ten);
-		System.out.println("ÀÏÀÇ ÀÚ¸® : " + one);
+		System.out.println("ì²œì˜ ìë¦¬ : " + th);
+		System.out.println("ë°±ì˜ ìë¦¬ : " + hun);
+		System.out.println("ì‹­ì˜ ìë¦¬ : " + ten);
+		System.out.println("ì¼ì˜ ìë¦¬ : " + one);
 
 		sc.close();
 

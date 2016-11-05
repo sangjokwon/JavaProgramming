@@ -1,3 +1,4 @@
+
 package tutorial;
 
 import java.util.Scanner;
@@ -9,12 +10,12 @@ public class Programming14 {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("ÃÊ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ì´ˆë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ");
 		ss = sc.nextInt();
 		h = ss / 3600;
 		m = (ss - h * 3600) / 60;
 		s = ss - h * 3600 - m * 60;
-		System.out.print(+ss + " ÃÊ´Â : " + h + "½Ã°£ " + m + "ºÐ " + s + "ÃÊ ÀÔ´Ï´Ù");
+		System.out.print(+ss + " ì´ˆëŠ” : " + h + "ì‹œê°„ " + m + "ë¶„ " + s + "ì´ˆ ìž…ë‹ˆë‹¤");
 
 		sc.close();
 	}

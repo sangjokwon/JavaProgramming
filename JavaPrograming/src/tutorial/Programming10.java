@@ -8,44 +8,44 @@ public class Programming10 {
 		int x, y, h, volume;
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("±æÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ê¸¸ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		x = sc.nextInt();
-		System.out.print("³Êºñ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ë„ˆë¹„ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		y = sc.nextInt();
-		System.out.print("³ôÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ë†’ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		h = sc.nextInt();
 
 		volume = x * y * h;
 
 		if (x >= 100 || y >= 100 || h >= 100) {
-			System.out.println("100º¸´Ù ÀÛÀº ¼ö¸¦ ÀÔ·Â");
+			System.out.println("100ë³´ë‹¤ ì‘ì€ ìˆ˜ë¥¼ ì…ë ¥");
 		} else {
-			System.out.println("ºÎÇÇ : " + volume);
+			System.out.println("ë¶€í”¼ : " + volume);
 		}
-// for ÇÑ¹ø µ¹·Á”f½À´Ï´Ù.
+// for í•œë²ˆ ëŒë ¤Â”fìŠµë‹ˆë‹¤.
 		for (int i = 0; i < 1; i++) {
-			System.out.print("±æÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+			System.out.print("ê¸¸ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 			x = sc.nextInt();
-			System.out.print("³Êºñ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+			System.out.print("ë„ˆë¹„ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 			y = sc.nextInt();
-			System.out.print("³ôÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+			System.out.print("ë†’ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 			h = sc.nextInt();
 			volume = x * y * h;
 
 			if (x >= 100) {
-				System.out.println("100º¸´Ù ÀÛÀº ¼ö¸¦ ÀÔ·Â");
+				System.out.println("100ë³´ë‹¤ ì‘ì€ ìˆ˜ë¥¼ ì…ë ¥");
 				i = i - 1;
 				continue;
 			} else if (y >= 100) {
-				System.out.println("100º¸´Ù ÀÛÀº ¼ö¸¦ ÀÔ·Â");
+				System.out.println("100ë³´ë‹¤ ì‘ì€ ìˆ˜ë¥¼ ì…ë ¥");
 				i = i - 1;
 				continue;
 			} else if (h >= 100) {
-				System.out.println("100º¸´Ù ÀÛÀº ¼ö¸¦ ÀÔ·Â");
+				System.out.println("100ë³´ë‹¤ ì‘ì€ ìˆ˜ë¥¼ ì…ë ¥");
 				i = i - 1;
 				continue;
 			} else{
-				System.out.println("ºÎÇÇ : " + volume);				
+				System.out.println("ë¶€í”¼ : " + volume);				
 			}
 			sc.close();
 

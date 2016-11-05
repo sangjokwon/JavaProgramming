@@ -8,12 +8,12 @@ public class Programming11 {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("½Ç¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("Â½Ã‡Â¼Ã¶Â¸Â¦ Ã€Ã”Â·Ã‚Ã‡ÃÂ¼Â¼Â¿Ã¤ : ");
 		x = sc.nextDouble();
 
 		y = 3 * x * x * x - 7 * x * x + 9;
 
-		System.out.println("3 * x * x * x -7 * x * x + 9  °ª : " + y);
+		System.out.println("3 * x * x * x -7 * x * x + 9  Â°Âª : " + y);
 
 		sc.close();
 	}

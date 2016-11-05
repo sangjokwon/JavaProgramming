@@ -7,15 +7,15 @@ public class Programming23 {
 		int x, y, sabun;
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("x ÁÂÇ¥¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("x ì¢Œí‘œë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ");
 		x = sc.nextInt();
 
-		System.out.print("y ÁÂÇ¥¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("y ì¢Œí‘œë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ");
 		y = sc.nextInt();
 
 		sabun = (x > 0) ? (y > 0 ? 1 : 2) : (y > 0 ? 4 : 3);
 
-		System.out.println(sabun + "»çºÐ¸é");
+		System.out.println(sabun + "ì‚¬ë¶„ë©´");
 
 		sc.close();
 

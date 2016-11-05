@@ -8,16 +8,16 @@ public class Programming19 {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("Ãâ¹ßÇÑ ÁöÁ¡ÀÇ ÁÖÇà °Å¸®°è : ");
+		System.out.print("ì¶œë°œí•œ ì§€ì ì˜ ì£¼í–‰ ê±°ë¦¬ê³„ : ");
 		start = sc.nextInt();
-		System.out.print("µµÂøÇÑ ÁöÁ¡ÀÇ ÁÖÇà °Å¸®°è : ");
+		System.out.print("ë„ì°©í•œ ì§€ì ì˜ ì£¼í–‰ ê±°ë¦¬ê³„ : ");
 		end = sc.nextInt();
-		System.out.print("»ç¿ëÇÑ ¿¬·á : ");
+		System.out.print("ì‚¬ìš©í•œ ì—°ë£Œ : ");
 		fuel = sc.nextInt();
 
 		efficiency = (end - start) / fuel;
 
-		System.out.print("¿¬ºñ´Â " + efficiency + "Km/1 ÀÔ´Ï´Ù");
+		System.out.print("ì—°ë¹„ëŠ” " + efficiency + "Km/1 ì…ë‹ˆë‹¤");
 
 		sc.close();
 

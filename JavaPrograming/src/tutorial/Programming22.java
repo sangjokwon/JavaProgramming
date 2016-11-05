@@ -8,18 +8,18 @@ public class Programming22 {
 		double AC, AE, BC, X, Y;
 
 		Scanner sc = new Scanner(System.in);
-		// »ï°¢Çü ABC ¿Í »ï°¢Çü ADE, AC:AE=BC:DE
-		System.out.print("º¯ ACÀÇ °ªÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		// ì‚¼ê°í˜• ABC ì™€ ì‚¼ê°í˜• ADE, AC:AE=BC:DE
+		System.out.print("ë³€ ACì˜ ê°’ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		AC = sc.nextDouble();
-		System.out.print("º¯ AEÀÇ °ªÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ë³€ AEì˜ ê°’ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		AE = sc.nextDouble();
-		System.out.print("º¯ BCÀÇ °ªÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ë³€ BCì˜ ê°’ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		BC = sc.nextDouble();
 
 		X = AE * BC;
 		Y = X / AC;
 
-		System.out.print("º¯DEÀÇ ±æÀÌ´Â : " + Y);
+		System.out.print("ë³€DEì˜ ê¸¸ì´ëŠ” : " + Y);
 
 		sc.close();
 	}

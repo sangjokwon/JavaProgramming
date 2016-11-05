@@ -9,14 +9,14 @@ public class Programming21 {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("¿¹±İ¾×À» ÀÔ·ÂÇÏ½Ã¿À : ");
+		System.out.print("ì˜ˆê¸ˆì•¡ì„ ì…ë ¥í•˜ì‹œì˜¤ : ");
 		won = sc.nextDouble();
-		System.out.print("¿¬ÀÌÀ²À» ÀÔ·ÂÇÏ½Ã¿À(´ÜÀ§ ÆÛ¼¾Æ®): ");
+		System.out.print("ì—°ì´ìœ¨ì„ ì…ë ¥í•˜ì‹œì˜¤(ë‹¨ìœ„ í¼ì„¼íŠ¸): ");
 		interest = sc.nextDouble();
 
 		for (int year = 1; year < 3; year++) {
 			won = won + (won * interest / 100);
-			System.out.println(year + "³â ÈÄÀÇ ¿¹±İ¾×Àº" + won + "ÀÔ´Ï´Ù.");
+			System.out.println(year + "ë…„ í›„ì˜ ì˜ˆê¸ˆì•¡ì€" + won + "ì…ë‹ˆë‹¤.");
 		}
 		sc.close();
 	}

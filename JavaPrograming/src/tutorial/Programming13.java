@@ -8,12 +8,12 @@ public class Programming13 {
 		int x;
 		double m;
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Æò¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("í‰ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 
 		x = sc.nextInt();
 		m = pyeong * x;
 
-		System.out.print("ÆÄ¿îµå¸¦ ±×·¥À¸·Î È¯»êÇÏ¸é : " + m + " M^2 ÀÔ´Ï´Ù");
+		System.out.print("íŒŒìš´ë“œë¥¼ ê·¸ë¨ìœ¼ë¡œ í™˜ì‚°í•˜ë©´ : " + m + " M^2 ì…ë‹ˆë‹¤");
 		sc.close();
 	}
 }

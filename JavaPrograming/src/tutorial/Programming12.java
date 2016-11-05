@@ -8,12 +8,12 @@ public class Programming12 {
 		int x;
 		double y;
 		Scanner sc = new Scanner(System.in);
-		System.out.print("ÆÄ¿îµå¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("íŒŒìš´ë“œë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ");
 
 		x = sc.nextInt();
 		y = pound * x;
 
-		System.out.print("ÆÄ¿îµå¸¦ ±×·¥À¸·Î È¯»êÇÏ¸é : " + y + "g ÀÔ´Ï´Ù");
+		System.out.print("íŒŒìš´ë“œë¥¼ ê·¸ëž¨ìœ¼ë¡œ í™˜ì‚°í•˜ë©´ : " + y + "g ìž…ë‹ˆë‹¤");
 		sc.close();
 	}
 

@@ -1,17 +1,18 @@
+
 package tutorial;
 
 public class Programming15 {
 	public static void main(String[] args) {
 
 		double sunearth, light, time;
-		// Áö¼öÇ¥±â¹ıÀ¸·Î Ç¥ÇöÇÏ±â
-		System.out.println("Áö±¸¿¡¼­ ÅÂ¾ç±îÁöÀÇ °Å¸® 1¾ï 5Ãµ¸¸km(1.5E8, 1.5E+6)");
+		// ì§€ìˆ˜í‘œê¸°ë²•ìœ¼ë¡œ í‘œí˜„í•˜ê¸°
+		System.out.println("ì§€êµ¬ì—ì„œ íƒœì–‘ê¹Œì§€ì˜ ê±°ë¦¬ 1ì–µ 5ì²œë§Œkm(1.5E8, 1.5E+6)");
 		sunearth = 1.5E+8;
-		System.out.println("ºûÀÇ ¼Óµµ´Â ÃÊ¼Ó 30¸¸ km (3.0E5, 3.0E+5)");
+		System.out.println("ë¹›ì˜ ì†ë„ëŠ” ì´ˆì† 30ë§Œ km (3.0E5, 3.0E+5)");
 		light = 3.0E+5;
 		time = sunearth / light;
 
-		System.out.println("µµ´Ş±îÁöÀÇ ÃÊ : " + time + " ÃÊ ");
+		System.out.println("ë„ë‹¬ê¹Œì§€ì˜ ì´ˆ : " + time + " ì´ˆ ");
 
 	}
 
