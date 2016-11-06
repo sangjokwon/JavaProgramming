@@ -28,7 +28,7 @@ public class Programming37 {
 			b = c;
 
 		}
-		System.out.println("합계 : " + sum);
+		System.out.println("합계 :  " + sum);
 	}
 
 }
